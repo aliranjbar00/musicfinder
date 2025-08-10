@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musicfinder"
+version = "1.0.0"
+description = "A simple Python library for finding music and video with dowload link."
+authors = [{ name="Ali Ranjabr", email="lyr680503@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.31.0",
+    "ddgs>=9.4.3"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
