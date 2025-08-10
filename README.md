@@ -10,7 +10,7 @@ pip install musicfinder
 ```
 
 ```python
-from musicfinder import MusicFinder
+from musicfinder import Finder
 
 # Create a searcher instance
 finder = MusicFinder()
@@ -33,7 +33,7 @@ This library helps you build your own search bot with unlimited search capabilit
 ## نصب
 
 ```bash
-pip install musicfinder
+pip install finder
 ```
 
 ## نحوه استفاده
