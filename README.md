@@ -1,5 +1,33 @@
+## en >>
 # MusicFinder
 
+A Python library for unlimited and precise Google search with download link extraction.
+
+## Installation
+
+```bash
+pip install musicfinder
+```
+
+```python
+from musicfinder import MusicFinder
+
+# Create a searcher instance
+finder = MusicFinder()
+
+# Search on Google
+results = finder.search("download new songs")
+
+# Print the links
+print(results)
+```
+
+This library helps you build your own search bot with unlimited search capabilities and accurate download link extraction.
+
+
+## fa >>
+
+# MusicFinder
 کتابخانه پایتون برای جستجوی نامحدود و دقیق در گوگل و استخراج لینک‌های دانلود.
 
 ## نصب
@@ -10,8 +38,6 @@ pip install musicfinder
 
 ## نحوه استفاده
 ```python
-Copy
-Edit
 from musicfinder import MusicFinder
 
 # ساخت نمونه‌ای از کلاس جستجوگر
