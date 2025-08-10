@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: musicfinder
+Version: 1.0.0
+Summary: A simple Python library for finding music and video with dowload link.
+Author-email: Ali Ranjabr <lyr680503@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+Requires-Dist: ddgs>=9.4.3
